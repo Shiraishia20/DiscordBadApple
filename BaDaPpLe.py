@@ -33,7 +33,7 @@ import discord
 import os
 from discord.ext import commands
 TOKEN = os.getenv("TOKEN")
-PREFIX = 'b.'
+PREFIX = '!'
 INTENTS = discord.Intents.default()
 bot = commands.Bot(command_prefix=PREFIX, intents=INTENTS)
 
@@ -46,7 +46,7 @@ async def on_ready():
 
 @bot.command()
 async def badapple(ctx):
-	if(ctx.channel.id == 807186290830737409):
+	if(ctx.channel.id == 817757281415987200):
 		i = 0
 		isCreated = False
 		msg = None
