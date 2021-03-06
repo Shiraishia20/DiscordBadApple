@@ -33,7 +33,7 @@ import discord
 import os
 from discord.ext import commands
 TOKEN = os.getenv("TOKEN")
-PREFIX = '!'
+PREFIX = 'b.'
 INTENTS = discord.Intents.default()
 bot = commands.Bot(command_prefix=PREFIX, intents=INTENTS)
 
